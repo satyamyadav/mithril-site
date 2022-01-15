@@ -3,7 +3,7 @@ export default {
   fetch: () =>
     m.request({
       method: 'GET',
-      url: '/data/writings.json',
+      url: 'data/writings.json',
     }),
 };
 

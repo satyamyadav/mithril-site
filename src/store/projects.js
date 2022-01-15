@@ -3,6 +3,6 @@ export default {
   fetch: () =>
     m.request({
       method: 'GET',
-      url: '/data/projects.json',
+      url: 'data/projects.json',
     }),
 };
